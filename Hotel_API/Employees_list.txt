@@ -1,0 +1,76 @@
+[
+  {
+    "Id": 1,
+    "FirstName": "Samer",
+    "LastName": "AboSamra",
+    "Title": "Cairo/ street 12",
+    "DOB": "2006-04-05T00:00:00",
+    "Email": "samer.abosamra@gmail.com",
+    "StartedDate": "2024-06-20T07:40:40.1243154",
+    "HotelId": 1,
+    "Booking": [
+      {
+        "Id": 1,
+        "CheckInAt": "2024-05-11T00:00:00",
+        "CheckOutAt": "2024-06-20T07:40:40.1243434",
+        "Price": 450.0,
+        "RoomId": 1,
+        "EmployeeId": 1,
+        "Payment": [
+          {
+            "Id": 1,
+            "TotalAmount": 450.0,
+            "CreatedDate": "2024-06-20T07:40:40.1243455",
+            "BookingId": 1,
+            "GuestId": 1
+          }
+        ],
+        "GuestId": 1
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "FirstName": "string",
+    "LastName": "string",
+    "Title": "string",
+    "DOB": "2024-06-20T00:02:31.649",
+    "Email": "string",
+    "StartedDate": "2024-06-20T00:02:31.649",
+    "HotelId": 1,
+    "Booking": []
+  },
+  {
+    "Id": 3,
+    "FirstName": "string",
+    "LastName": "string",
+    "Title": "string",
+    "DOB": "2024-06-20T00:06:53.781",
+    "Email": "string",
+    "StartedDate": "2024-06-20T00:06:53.781",
+    "HotelId": 1,
+    "Booking": []
+  },
+  {
+    "Id": 4,
+    "FirstName": "string",
+    "LastName": "string",
+    "Title": "string",
+    "DOB": "2024-06-20T00:10:57.621",
+    "Email": "string",
+    "StartedDate": "2024-06-20T00:10:57.621",
+    "HotelId": 1,
+    "Booking": []
+  },
+  {
+    "Id": 5,
+    "FirstName": "string",
+    "LastName": "string",
+    "Title": "string",
+    "DOB": "2024-06-20T00:17:06.561",
+    "Email": "string",
+    "StartedDate": "2024-06-20T00:17:06.561",
+    "HotelId": 1,
+    "Booking": []
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "Id": 1,
+    "Name": "Alfa Hotel",
+    "Email": "AlfaHotel@gmail.com",
+    "Phone": "5134776",
+    "Address": "Cairo/ Street 14",
+    "Employees": [
+      {
+        "Id": 1,
+        "FirstName": "Samer",
+        "LastName": "AboSamra",
+        "Title": "Cairo/ street 12",
+        "DOB": "2006-04-05T00:00:00",
+        "Email": "samer.abosamra@gmail.com",
+        "StartedDate": "2024-06-20T07:40:40.1243154",
+        "HotelId": 1,
+        "Booking": [
+          {
+            "Id": 1,
+            "CheckInAt": "2024-05-11T00:00:00",
+            "CheckOutAt": "2024-06-20T07:40:40.1243434",
+            "Price": 450.0,
+            "Room": {
+              "Id": 1,
+              "Number": 1,
+              "FloorNumber": 1,
+              "Status": "Occupied",
+              "RoomTypeId": 1,
+              "Booking": [],
+              "HotelId": 1
+            },
+            "RoomId": 1,
+            "EmployeeId": 1,
+            "Payment": [],
+            "GuestId": 1
+          }
+        ]
+      },
+      {
+        "Id": 2,
+        "FirstName": "string",
+        "LastName": "string",
+        "Title": "string",
+        "DOB": "2024-06-20T00:02:31.649",
+        "Email": "string",
+        "StartedDate": "2024-06-20T00:02:31.649",
+        "HotelId": 1,
+        "Booking": []
+      },
+      {
+        "Id": 3,
+        "FirstName": "string",
+        "LastName": "string",
+        "Title": "string",
+        "DOB": "2024-06-20T00:06:53.781",
+        "Email": "string",
+        "StartedDate": "2024-06-20T00:06:53.781",
+        "HotelId": 1,
+        "Booking": []
+      },
+      {
+        "Id": 4,
+        "FirstName": "string",
+        "LastName": "string",
+        "Title": "string",
+        "DOB": "2024-06-20T00:10:57.621",
+        "Email": "string",
+        "StartedDate": "2024-06-20T00:10:57.621",
+        "HotelId": 1,
+        "Booking": []
+      },
+      {
+        "Id": 5,
+        "FirstName": "string",
+        "LastName": "string",
+        "Title": "string",
+        "DOB": "2024-06-20T00:17:06.561",
+        "Email": "string",
+        "StartedDate": "2024-06-20T00:17:06.561",
+        "HotelId": 1,
+        "Booking": []
+      }
+    ],
+    "Room": [
+      {
+        "Id": 1,
+        "Number": 1,
+        "FloorNumber": 1,
+        "Status": "Occupied",
+        "RoomTypeId": 1,
+        "Booking": [
+          {
+            "Id": 1,
+            "CheckInAt": "2024-05-11T00:00:00",
+            "CheckOutAt": "2024-06-20T07:40:40.1243434",
+            "Price": 450.0,
+            "RoomId": 1,
+            "Employee": {
+              "Id": 1,
+              "FirstName": "Samer",
+              "LastName": "AboSamra",
+              "Title": "Cairo/ street 12",
+              "DOB": "2006-04-05T00:00:00",
+              "Email": "samer.abosamra@gmail.com",
+              "StartedDate": "2024-06-20T07:40:40.1243154",
+              "HotelId": 1,
+              "Booking": []
+            },
+            "EmployeeId": 1,
+            "Payment": [],
+            "GuestId": 1
+          }
+        ],
+        "HotelId": 1
+      }
+    ]
+  },
+  {
+    "Id": 12,
+    "Name": "waw",
+    "Email": "string",
+    "Phone": "string",
+    "Address": "string",
+    "Employees": [],
+    "Room": []
+  }
+]

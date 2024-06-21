@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 1,
+    "CheckInAt": "2024-05-11T00:00:00",
+    "CheckOutAt": "2024-06-20T07:40:40.1243434",
+    "Price": 450.0,
+    "RoomId": 1,
+    "EmployeeId": 1,
+    "Payment": [
+      {
+        "Id": 1,
+        "TotalAmount": 450.0,
+        "CreatedDate": "2024-06-20T07:40:40.1243455",
+        "BookingId": 1,
+        "GuestId": 1
+      }
+    ],
+    "GuestId": 1
+  }
+]

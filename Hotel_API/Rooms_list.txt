@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 1,
+    "Number": 1,
+    "FloorNumber": 1,
+    "Status": "Occupied",
+    "RoomTypeId": 1,
+    "Booking": [
+      {
+        "Id": 1,
+        "CheckInAt": "2024-05-11T00:00:00",
+        "CheckOutAt": "2024-06-20T07:40:40.1243434",
+        "Price": 450.0,
+        "RoomId": 1,
+        "EmployeeId": 1,
+        "Payment": [],
+        "GuestId": 1
+      }
+    ],
+    "HotelId": 1
+  }
+]
